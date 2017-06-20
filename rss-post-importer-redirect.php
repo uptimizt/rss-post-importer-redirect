@@ -1,17 +1,14 @@
 <?php
 /*
-Plugin Name: @RSS Feed URL Redirect
+Plugin Name: RSS Post Importer Redirect
 Version: 0.1
-Plugin URI: ${TM_PLUGIN_BASE}
+Plugin URI: https://github.com/yumashev/rss-post-importer-redirect
 Description: Get url from meta 'rss_pi_source_url' and redirect via hook 'template_redirect'. Support plugin https://ru.wordpress.org/plugins/rss-post-importer/
-Author: ${TM_NAME}
-Author URI: ${TM_HOMEPAGE}
+Author: AY
+Author URI: https://github.com/yumashev/
 */
 
 
-/**
- *
- */
 class RSS_URL_Redirect {
 
   function __construct() {
